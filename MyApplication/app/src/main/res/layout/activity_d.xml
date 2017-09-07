@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+              android:background="#d1d1d1"
+    android:orientation="vertical">
+<!--
+    <com.example.widget.CircleWaveImageView
+        android:id="@+id/circleWaveImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />-->
+    <EditText
+        android:id="@+id/et_edit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <com.example.widget.CircleView
+        android:id="@+id/circleWaveImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</LinearLayout>

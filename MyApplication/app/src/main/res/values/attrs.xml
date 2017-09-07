@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 条形控制控件自定义属性 -->
+    <declare-styleable name="FingerCaveImageView">
+        <!-- 水波纹扩散半径-->
+        <attr name="cave_radius" format="dimension"/>
+    </declare-styleable>
+</resources>

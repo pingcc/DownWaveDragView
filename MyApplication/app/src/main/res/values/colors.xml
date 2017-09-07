@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="salary_anim_color">#ff353e</color>
+    <color name="color_9">#999</color>
+    <color name="color_3">#333</color>
+    <color name="color_d">#ddd</color>
+
+    <color name="red_color">#ff2929</color>
+    <color name="wave_color">#ff2929</color>
+</resources>
