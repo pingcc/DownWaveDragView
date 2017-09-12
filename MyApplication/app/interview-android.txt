@@ -55,6 +55,7 @@
          表格布局（TableLayout）
      布局优化标签
      include, viewStub, merge
+
 9.开发时Android5.0、6.0、7.0 各版本SDK之间的差异（系统的新特性也可以说一说）
     5.0 Material Design 设计风格，虚拟机的优化，由Dalvik 虚拟机改用为ART（重大改变）
     Material Design（水波纹，转场动画，CardView等）
