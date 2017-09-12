@@ -1,0 +1,124 @@
+试题：
+1.ArrayList和LinkedList的区别：
+2.请简述java的设计模式（至少5种）
+3.请列出android LauncherMode(4种)
+4.请列出android 数据存储方式（5种）
+5.请列出android 数据存储方式（5种）
+6.简述内存泄露和内存溢出的原理
+7.自定义view的绘制过程
+8.请列出android 常见布局和布局优化标签
+9.开发时Android5.0、6.0、7.0 各版本SDK之间的差异（系统的新特性也可以说一说）
+10. 请写出一个简单的建造者模式
+
+1.ArrayList和LinkedList的区别：
+     1.ArrayList是实现了基于动态数组的数据结构，LinkedList基于链表的数据结构。
+     2.ArrayList:便于排序
+     3.LinkedList：便于添加或删除数据
+
+2.请简述java的设计模式（至少5种）
+    单例,观察者,适配器，工厂,建造者,策略，代理，
+
+3.请列出android LauncherMode(4种)
+
+    1.standard 2.singleTask 3.singleTop 4.singleInstance
+
+4.请列出android 动画（3种）
+    1 属性动画
+    2 视图动画
+    3 帧动画
+
+5.请列出android 数据存储方式（5种）
+    1　SP存储
+    2　文件存储
+    3　SQLite数据库存储
+    4　ContentProvider存储
+    5　网络存储
+
+
+
+
+6.简述内存泄露和内存溢出的原理
+    内存泄露：当虚拟机分配的内存处于空闲状态时,垃圾回收器GC不定时回收，而由于某一个对象被强引用导致不能释放系统无法回收所引起的
+    内存溢出：需要的内存超出了系统分配的内存，造成溢出
+
+7.自定义view的绘制过程
+    onDraw()绘制  onMeasure 测量 onLayout 控件显示位置
+    onTouchEvent() 定义触屏事件来响应用户操作。
+
+
+8.请列出android 常见布局和布局优化标签
+    常见布局:
+         线性布局（LinearLayout）
+         帧布局（FrameLayout）
+         相对布局（RelativeLayout）
+         绝对布局（AbsoluteLayout）
+         表格布局（TableLayout）
+     布局优化标签
+     include, viewStub, merge
+9.开发时Android5.0、6.0、7.0 各版本SDK之间的差异（系统的新特性也可以说一说）
+    5.0 Material Design 设计风格，虚拟机的优化，由Dalvik 虚拟机改用为ART（重大改变）
+    Material Design（水波纹，转场动画，CardView等）
+    6.0 开发：运行时权限; 体验:优化了大量漂亮流畅的动画 可以从视觉上减少卡顿感，给用户带来流畅的体验
+    7.0  开发：不能直接读取sdk中的路径,需要利用FileProvider   体验: 分屏多任务支持
+
+10. 请写出一个简单的建造者模式
+  public class Test{
+      private TextView view1;
+      private TextView view2;
+      private String text1;
+      private String text2;
+      public Test setView1(String text){
+         text1 =text;
+         return this;
+      }
+
+      public Test setView2(String text){
+              text2 =text;
+              return this;
+           }
+
+      public void build(){
+           view1.setText(text1);
+           view2.setText(text2);
+         }
+
+         //外部调用 ,链式编程
+         new Test().setView1("").setView2("").build();
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
