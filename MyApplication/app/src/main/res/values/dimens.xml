@@ -2,5 +2,69 @@
     <dimen name="fab_margin">16dp</dimen>
 
     <dimen name="circle_radius">35dp</dimen>
+    <dimen name="sp_8">8sp</dimen>
+    <dimen name="sp_10">10sp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_15">15sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_17">17sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="sp_19">19sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_50">50sp</dimen>
+
+    <dimen name="sp_24">24sp</dimen>
+    <dimen name="sp_30">30sp</dimen>
+    <dimen name="sp_37">37sp</dimen>
+
+    <dimen name="toolbar_height">56dp</dimen>
+
+    <dimen name="px_1">1px</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_7">7dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_9">9dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_17">17dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_19">19dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_23">23dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_34">34dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_27">27dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_42">42dp</dimen>
+    <dimen name="dp_43">43dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_47">47dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_52">52dp</dimen>
+    <dimen name="dp_48">48dp</dimen>
+    <dimen name="dp_tab">49dp</dimen>
+    <dimen name="dp_55">55dp</dimen>
+    <dimen name="dp_56">56dp</dimen>
+    <dimen name="dp_58">58dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_63">63dp</dimen>
+    <dimen name="dp_65">65dp</dimen>
+    <dimen name="dp_68">68dp</dimen>
+    <dimen name="dp_73">73dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
 
 </resources>

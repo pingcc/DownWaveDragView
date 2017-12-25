@@ -6,8 +6,12 @@
     <color name="salary_anim_color">#ff353e</color>
     <color name="color_9">#999</color>
     <color name="color_3">#333</color>
+    <color name="bg_divider_line">#eee</color>
     <color name="color_d">#ddd</color>
-
+    <color name="color_white">@android:color/white</color>
+    <color name="color_toolbar">#2f88ff</color>
+    <color name="color_toolbar_deep">#2366bf</color>
+    <color name="color_fafafa">#fafafa</color>
     <color name="red_color">#ff2929</color>
     <color name="wave_color">#ff2929</color>
 </resources>
