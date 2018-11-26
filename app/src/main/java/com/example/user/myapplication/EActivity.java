@@ -9,8 +9,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.ImageView;
 
-import com.example.ImageToUtil;
-import com.example.ImageUtils;
 import com.example.widget.GlideRoundedCornersTransform;
 
 /**
